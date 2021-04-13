@@ -8,36 +8,44 @@
     tools:context=".SecondActivity">
 
     <LinearLayout
-        android:padding="16dp"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:background="#FFC6FF00">
+        android:background="#FFC6FF00"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btn_Back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/arrow_back" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="INTENT"
-            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:text="Back"
             android:textColor="@color/black"
-            android:textStyle="bold"
-            android:layout_gravity="center"/>
+            android:textSize="25dp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
     <LinearLayout
-        android:padding="16dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="#7f8fa6">
+        android:background="#7f8fa6"
+        android:padding="16dp">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="This is SecondActivity"
-            android:textSize="20dp"
-            android:textColor="@color/white"
+            android:layout_gravity="center"
             android:gravity="center"
-            android:layout_gravity="center"/>
+            android:text="404 not found"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
 
     </LinearLayout>
 
