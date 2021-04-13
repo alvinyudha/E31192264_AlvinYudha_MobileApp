@@ -22,5 +22,14 @@ public class SecondActivity extends AppCompatActivity {
                 startActivity(back);
             }
         });
+
+        Button btnFragment = findViewById(R.id.btn_fragment);
+        btnFragment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent fragment = new Intent(SecondActivity.this, Fragment.class);
+                startActivity(fragment);
+            }
+        });
     }
 }

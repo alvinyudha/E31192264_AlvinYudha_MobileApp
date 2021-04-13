@@ -38,14 +38,15 @@
         android:background="#7f8fa6"
         android:padding="16dp">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+        <Button
+            android:id="@+id/btn_fragment"
             android:layout_gravity="center"
-            android:gravity="center"
-            android:text="404 not found"
-            android:textColor="@color/white"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:text="Fragment"
+            android:backgroundTint="#4CC500"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
 
     </LinearLayout>
 
